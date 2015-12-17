@@ -11,14 +11,28 @@ It provides a way to better manage commits. Prevent problems from happening.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Add only files that belong to same logical change to staging area.
+
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+In the case that we develop different version of same application or make some feathures which are not certain if they are working or needed.
+Branch would make such scenario possible and allow team members to work on different things, and later on merge together
+
+
 
 How do the diagrams help you visualize the branch structure?
+I understand the traceablity of each commit. can find out orphan commit
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+
+codes are combined. diagram illustrats the relationship among commits
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merge saves time but there might be conflicts which requires manul fix
